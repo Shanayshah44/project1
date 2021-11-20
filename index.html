@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index  page</title>
+</head>
+
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    body{
+       /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:white;*/
+        margin:0px;
+        padding:0px;
+        background:url('6.webp');     
+          }
+    .left{
+        position:absolute;
+        left:60px;
+        top:20px;
+        display:inline-block;
+       /*border:2px solid;*/
+
+          }
+    .right{
+        position:absolute;
+        right:34px;
+        top:20px;
+        display:inline-block;
+        border:2px solid;
+    }
+    .mid{
+        display:block;
+        width: 36%;
+        margin:20px auto;
+        top:20px;
+       
+    }
+    .navbar{
+        display:inline-block;
+
+    }
+    .navbar li{
+        display:inline-block;
+        color :white;
+        font-size:20px;
+    }
+    .navbar li a{
+        color:white;
+        text-decoration:none;
+        padding:15px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration:underline;
+        color:grey;
+    }
+    .left div{
+        text-align: center;
+        line-height:19px;
+        font-size:26px;
+        text-decoration: wheat;
+
+    }
+    .left img{
+        margin:5px 6px;
+        width:50px;
+        color:white;
+       /* filter:invert(100%)*/;
+    }
+    .btn{
+        margin:0px 9px;
+        color:white;
+        background-color: black;
+        color: white;
+        padding:4px 4px;
+        border:2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor:pointer;
+    }
+    .btn:hover{
+        background: grey;
+    }
+    .container{
+        border:2px solid;
+        margin:106px 400px;
+        padding:50px;
+        width:33%;
+        border-radius:28px;
+    }
+    .form-group input{
+        text-align:center;
+        display:block;
+        width:500px;
+        padding:2px;
+        border:2px solid black;
+        margin:10px auto;
+        font-size:27px;
+        border-radius: 8px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    .container h1{
+        text-align:center;
+    }
+    .container button{
+        display:block;
+        width:74%;
+        margin:15px auto;
+    }
+</style>
+<body>
+<header class="header">
+    <!--left box for logo-->
+<div class="left">
+
+    <img src="8.jpg" alt="">
+    <div>
+         Fitness
+    </div>
+
+</div>
+<!--mid box for logo-->
+<div class="mid">
+
+<ul class="navbar">
+    <li><a href="#" class ="active">home</a></li>
+    <li><a href="#">about us</a></li>
+    <li> <a href ="#">fitness calculator</a></li>
+    <li><a href="#"> contact us</a></li>
+</ul>
+</div>
+<!--right box for buttons-->
+<div class="right">
+    <button class="btn">call us now</button>
+    <button class="btn"> email us</button>
+</div>
+    </header>
+    <div class="container">
+        <h1>
+            Join the best gym now
+        </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter  your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter  your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter  your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter  your locality">
+            </div>
+           
+            
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+</html>
